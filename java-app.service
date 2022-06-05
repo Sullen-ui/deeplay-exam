@@ -1,0 +1,12 @@
+[Unit]
+Description=JavaApp
+
+[Service]
+Type=forking
+ExecStart=/var/www/java-app/start.sh
+Restart=on-failure
+RestartSec=5
+StartLimitInterval=5
+
+[Install]
+WantedBy=multi-user.target
