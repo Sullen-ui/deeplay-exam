@@ -38,7 +38,7 @@
     
     $python sort2.py
 
-<h4>Вариант 3(Баш :sheep:) - sort.sh</h4>
+<h4>Вариант 3(Баш :sheep:)</h4>
 
 [sort.sh](https://github.com/Sullen-ui/deeplay-exam/blob/main/sort.sh)
 
