@@ -3,7 +3,7 @@ Description=JavaApp
 
 [Service]
 Type=forking
-ExecStart=/var/www/java-app/start.sh
+ExecStart=sudo java -jar /var/www/java-app/app.jar /var/log/java-app/log.txt
 Restart=on-failure
 RestartSec=5
 StartLimitInterval=5
